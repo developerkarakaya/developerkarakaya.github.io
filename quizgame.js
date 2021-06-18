@@ -19,7 +19,7 @@ var score = 0;
 
 let questions = [{
     question: "Bu Hangi Kuş?",
-    imgSrc: "assets/birds/bellbird.jpg",
+    imgSrc: "bellbird.jpg",
     choiceA: "Baykuş",
     choiceB: "Leylek",
     choiceC: "Serçe",
@@ -30,7 +30,7 @@ let questions = [{
 }, {
     question: "Bu Hangi Kuş?",
 
-    imgSrc: "assets/birds/kakapo.jpg",
+    imgSrc: "kakapo.jpg",
     choiceA: "Baykuş",
     choiceB: "Leylek",
     choiceC: "Serçe",
@@ -40,7 +40,7 @@ let questions = [{
     correctAnswer: "C"
 }, {
     question: "Bu Hangi Kuş?",
-    imgSrc: "assets/birds/kotuku.jpg",
+    imgSrc: "kotuku.jpg",
     choiceA: "Baykuş",
     choiceB: "Leylek",
     choiceC: "Serçe",
@@ -51,7 +51,7 @@ let questions = [{
 }, {
     question: "Bu Hangi Kuş?",
 
-    imgSrc: "assets/birds/kea.jpg",
+    imgSrc: "kea.jpg",
     choiceA: "Baykuş",
     choiceB: "Leylek",
     choiceC: "Serçe",
@@ -62,7 +62,7 @@ let questions = [{
 }, {
     question: "Bu Hangi Kuş?",
 
-    imgSrc: "assets/birds/kaka.jpg",
+    imgSrc: "kaka.jpg",
     choiceA: "Baykuş",
     choiceB: "Leylek",
     choiceC: "Serçe",
