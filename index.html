@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Sınav</title>
+</head>
+
+<body>
+    <h1>Sınav</h1>
+    <div id="scoreBlock" style="text-align: center;"></div>
+    <div id="successCountBlock" style="text-align: center;"></div>
+    <span id="time" style="text-align: center; margin-left: 50%;"></span>
+    <div id="saniye"></div>
+    <div id="uyari"></div>
+    <div class="container">
+        <div id="start"><button class="start-btn" onClick="beginQuiz()">Sınava Başla!</button>
+        </div>
+        <div id="quiz" style="display: none">
+            <div id="successCount" style="display: none"></div>
+            <h2 id="quizQuestion"></h2>
+
+            <div class="img-div" id="quizImg"></div>
+            <div id="choices">
+                <button id="choiceA" onclick="check('A')"></button>
+                <button id="choiceB" onclick="check('B')"></button>
+                <button id="choiceC" onclick="check('C')"></button>
+                <button id="choiceD" onclick="check('D')"></button>
+                <button id="choiceE" onclick="check('E')"></button>
+            </div>
+            <div id="choiceResponse" style="display: none"></div>
+        </div>
+
+        <div><button id="quizAgain" class="quizRestart" onClick="restartQuiz()">Baştan Başla
+                !</button></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/quizgame.js"></script>
+</body>
+
+</html>
